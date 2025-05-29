@@ -1,0 +1,17 @@
+# Subtração
+Ler [a];
+Ler [b];
+[subtração] = [a - b];
+Mostre [subtração];
+
+# Multiplicação
+Ler [a];
+Ler [b];
+[multiplicação] = [a * b];
+Mostre [multiplicação];
+
+# Divisão
+Ler [a];
+Ler [b];
+[divisão] = [a / b];
+Mostre [divisão];
