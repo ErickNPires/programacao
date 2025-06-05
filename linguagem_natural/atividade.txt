@@ -14,19 +14,16 @@ Mostrar [media];
 # 3  
 Ler [base];  
 Ler [altura];  
-[area] = [base * altura];  
-Mostrar [area];
+[area] = [base * altura];
 
 # 4  
 Ler [base];  
 Ler [altura];  
 [area] = ([base * altura]) / 2;  
-Mostrar [area];
 
 # 5  
 Ler [C];  
-[fahrenheit] = ([9 * C] + 160) / 5;  
-Mostrar [fahrenheit];
+[fahrenheit] = ([9 * C] + 160) / 5;
 
 # 6  
 Ler [nota1];  
@@ -36,87 +33,72 @@ Ler [peso2];
 Ler [nota3];  
 Ler [peso3];  
 [media] = ([nota1 * peso1 + nota2 * peso2 + nota3 * peso3]) / ([peso1 + peso2 + peso3]);  
-Mostrar [media];
 
 # 7  
 Ler [comprimento];  
 Ler [largura];  
 Ler [altura];  
 [volume] = [comprimento * largura * altura];  
-Mostrar [volume];
 
 # 8  
 Ler [produto1];  
 Ler [produto2];  
 Ler [produto3];  
 [total] = [produto1 + produto2 + produto3];  
-Mostrar [total];
 
 # 9  
 Ler [tempo];  
 Ler [velocidade];  
 [distancia] = [velocidade * tempo];  
-[tempoMinutos] = [tempo * 60];  
-Mostrar [distancia];  
-Mostrar [tempoMinutos];
+[tempoMinutos] = [tempo * 60];
 
 # 10  
 Ler [dias];  
-[horas] = [dias * 24];  
-Mostrar [horas];
+[horas] = [dias * 24];
 
 # 11  
 Ler [minutos];  
-[segundos] = [minutos * 60];  
-Mostrar [segundos];
+[segundos] = [minutos * 60];
 
 # 12  
 Ler [salario];  
 Ler [aumento];  
-[novoSalario] = [salario + aumento];  
-Mostrar [novoSalario];
+[novoSalario] = [salario + aumento];
 
 # 13  
 Ler [capital];  
 Ler [juros];  
 Ler [tempo];  
-[montante] = [capital + (capital * juros * tempo)];  
-Mostrar [montante];
+[montante] = [capital + (capital * juros * tempo)];
 
 # 14  
 Ler [valorCompra];  
 Ler [valorPago];  
-[troco] = [valorPago - valorCompra];  
-Mostrar [troco];
+[troco] = [valorPago - valorCompra];
 
 # 15  
 Ler [peso];  
 Ler [altura];  
-[imc] = [peso / (altura * altura)];  
-Mostrar [imc];
+[imc] = [peso / (altura * altura)];
 
 # 16  
 Ler [raio];  
-[perimetro] = [2 * 3.14 * raio];  
-Mostrar [perimetro];
+[perimetro] = [2 * 3.14 * raio];
 
 # 17  
 Ler [idade1];  
 Ler [idade2];  
-[diferenca] = [idade1 - idade2];  
-Mostrar [diferenca];
+[diferenca] = [idade1 - idade2];
 
 # 18  
 Ler [km];  
 Ler [litros];  
-[consumo] = [km / litros];  
-Mostrar [consumo];
+[consumo] = [km / litros];
 
 # 19  
 Ler [conta];  
 Ler [pessoas];  
-[valorPorPessoa] = [conta / pessoas];  
-Mostrar [valorPorPessoa];
+[valorPorPessoa] = [conta / pessoas];
 
 # 20  
 Ler [valorProduto];  
