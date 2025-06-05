@@ -1,46 +1,126 @@
-# 1
-Ler [a];
-Ler [b];
-[soma] = [a + b];
-Mostrar [soma]
+# 1  
+Ler [a];  
+Ler [b];  
+[soma] = [a + b];  
+Mostrar [soma];
 
-# 2
-Ler [a];
-Ler [b];
-Ler [c];
-[media] = [a + b + c] / 3;
+# 2  
+Ler [a];  
+Ler [b];  
+Ler [c];  
+[media] = ([a + b + c]) / 3;  
 Mostrar [media];
 
-# 3
-Ler [base];
-Ler [altura];
-[area] = [base * altura];
+# 3  
+Ler [base];  
+Ler [altura];  
+[area] = [base * altura];  
+Mostrar [area];
 
-# 4
-Ler [base]
-Ler [altura]
-[area] = ([base * altura]) / 2;
+# 4  
+Ler [base];  
+Ler [altura];  
+[area] = ([base * altura]) / 2;  
+Mostrar [area];
 
-# 5
-Ler [temperatura]
-[fahrenheit] = ([9 * C] + 160) / 5;
+# 5  
+Ler [C];  
+[fahrenheit] = ([9 * C] + 160) / 5;  
+Mostrar [fahrenheit];
 
-# 6
+# 6  
+Ler [nota1];  
+Ler [peso1];  
+Ler [nota2];  
+Ler [peso2];  
+Ler [nota3];  
+Ler [peso3];  
+[media] = ([nota1 * peso1 + nota2 * peso2 + nota3 * peso3]) / ([peso1 + peso2 + peso3]);  
+Mostrar [media];
 
-# 7
-Ler [comprimento];
-Ler [largura];
-Ler [altura];
-[volume] = [comprimento * largura * altura]
+# 7  
+Ler [comprimento];  
+Ler [largura];  
+Ler [altura];  
+[volume] = [comprimento * largura * altura];  
+Mostrar [volume];
 
-# 8
-Ler [produto1];
-Ler [produto2];
-Ler [produto3];
-[total] = [produto1 + produto2 + produto3]
+# 8  
+Ler [produto1];  
+Ler [produto2];  
+Ler [produto3];  
+[total] = [produto1 + produto2 + produto3];  
+Mostrar [total];
 
-# 9
+# 9  
+Ler [tempo];  
+Ler [velocidade];  
+[distancia] = [velocidade * tempo];  
+[tempoMinutos] = [tempo * 60];  
+Mostrar [distancia];  
+Mostrar [tempoMinutos];
 
-# 10
+# 10  
+Ler [dias];  
+[horas] = [dias * 24];  
+Mostrar [horas];
 
-# 11
+# 11  
+Ler [minutos];  
+[segundos] = [minutos * 60];  
+Mostrar [segundos];
+
+# 12  
+Ler [salario];  
+Ler [aumento];  
+[novoSalario] = [salario + aumento];  
+Mostrar [novoSalario];
+
+# 13  
+Ler [capital];  
+Ler [juros];  
+Ler [tempo];  
+[montante] = [capital + (capital * juros * tempo)];  
+Mostrar [montante];
+
+# 14  
+Ler [valorCompra];  
+Ler [valorPago];  
+[troco] = [valorPago - valorCompra];  
+Mostrar [troco];
+
+# 15  
+Ler [peso];  
+Ler [altura];  
+[imc] = [peso / (altura * altura)];  
+Mostrar [imc];
+
+# 16  
+Ler [raio];  
+[perimetro] = [2 * 3.14 * raio];  
+Mostrar [perimetro];
+
+# 17  
+Ler [idade1];  
+Ler [idade2];  
+[diferenca] = [idade1 - idade2];  
+Mostrar [diferenca];
+
+# 18  
+Ler [km];  
+Ler [litros];  
+[consumo] = [km / litros];  
+Mostrar [consumo];
+
+# 19  
+Ler [conta];  
+Ler [pessoas];  
+[valorPorPessoa] = [conta / pessoas];  
+Mostrar [valorPorPessoa];
+
+# 20  
+Ler [valorProduto];  
+Ler [descontoPercentual];  
+[valorDesconto] = [valorProduto * descontoPercentual / 100];  
+[valorFinal] = [valorProduto - valorDesconto];  
+Mostrar [valorFinal];
