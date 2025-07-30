@@ -6,13 +6,13 @@ int main () {
      float altura;
      float area;
 
-     cout << "Informe a base do retangulo: ";
+     cout << "Informe a base do triangulo: ";
      cin >> base;
 
-     cout << "Informe a altura do retangulo: ";
+     cout << "Informe a altura do triangulo: ";
      cin >> altura;
 
-     area = base * altura;
+     area = (base * altura) / 2;
      
      cout << "Area do retangulo: " << area << endl; 
      return 0;
