@@ -14,6 +14,6 @@ int main () {
 
      area = (base * altura) / 2;
      
-     cout << "Area do retangulo: " << area << endl; 
+     cout << "Area do triangulo: " << area << endl; 
      return 0;
 }
