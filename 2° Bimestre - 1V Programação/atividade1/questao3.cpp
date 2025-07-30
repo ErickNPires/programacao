@@ -2,9 +2,9 @@
 using namespace std;
 
 int main () {
-     int base;
-     int altura;
-     int area;
+     float base;
+     float altura;
+     float area;
 
      cout << "Informe a base do retangulo: ";
      cin >> base;
