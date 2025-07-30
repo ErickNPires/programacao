@@ -6,10 +6,10 @@ int main () {
      int num2;
      int soma;
 
-     cout << "Informe o primeiro número: ";
+     cout << "Informe o primeiro número inteiro: ";
      cin >> num1;
 
-     cout << "Informe o segundo número: ";
+     cout << "Informe o segundo número inteiro: ";
      cin >> num2;
 
      soma = num1 + num2;
