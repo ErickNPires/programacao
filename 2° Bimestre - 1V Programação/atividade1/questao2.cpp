@@ -2,18 +2,18 @@
 using namespace std;
 
 int main () {
-     int num1;
-     int num2;
-     int num3;
-     int media;
+     float num1;
+     float num2;
+     float num3;
+     float media;
 
-     cout << "Informe o primeiro número: ";
+     cout << "Informe o primeiro número real: ";
      cin >> num1;
 
-     cout << "Informe o segundo número: ";
+     cout << "Informe o segundo número real: ";
      cin >> num2;
 
-     cout << "Informe o terceiro número: ";
+     cout << "Informe o terceiro número real: ";
      cin >> num3;
 
      media = (num1 + num2 + num3) / 3;
