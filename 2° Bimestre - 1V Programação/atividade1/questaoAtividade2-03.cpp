@@ -1,16 +1,23 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main () {
-    float base;
-    float altura;
+     float base;
+     float altura;
+     float area;
 
-    cout << "Informe a base: ";
-    cin >> raio;
+     cout << "Informe a base do retangulo: ";
+     cin >> base;
 
-    petrimetro = 2 * 3.14 * raio;
+     if(base < 0) {
+        cout << "O Valor não pode ser negativo!"
+     }
 
-    cout << "Valor do IMC: " << imc << endl; 
-    return 0;
+     cout << "Informe a altura do retangulo: ";
+     cin >> altura;
+
+     area = base * altura;
+     
+     cout << "Area do retangulo: " << area << endl; 
+     return 0;
 }
