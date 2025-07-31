@@ -30,6 +30,6 @@ int main () {
   
      media = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3)) / (peso1 + peso2 + peso3);
      
-     cout << "Media ponderada das 3 notas : " << media << endl; 
+     cout << "Media ponderada das 3 notas: " << media << endl; 
      return 0;
 }
