@@ -18,6 +18,6 @@ int main () {
 
      total = preco1 + preco2 + preco3;
 
-     cout << "Preco total : " << total << endl; 
+     cout << "Preco total: " << total << endl; 
      return 0;
 }
