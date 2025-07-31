@@ -18,6 +18,6 @@ int main () {
   
      volume = comprimento * largura * altura;
      
-     cout << "Volume da caixa : " << volume << endl; 
+     cout << "Volume da caixa: " << volume << endl; 
      return 0;
 }
