@@ -2,28 +2,38 @@
 using namespace std;
 
 int main () {
-     float base;
-     float altura;
-     float area;
+     float nota1;
+     float peso1;
+     float nota2;
+     float peso2;
+     float nota3;
+     float peso3;
+     float media;
 
-     cout << "Informe a base do retangulo: ";
-     cin >> base;
+     cout << "Informe a primeira nota: ";
+     cin >> nota1;
 
-     if(base <= 0) {
-        cout << "A base não pode ser negativa!";
-     }
+     cout << "Informe o peso da primeira nota: ";
+     cin >> peso1;
 
-     cout << "Informe a altura do retangulo: ";
-     cin >> altura;
+     cout << "Informe a segunda nota: ";
+     cin >> nota2;
 
-     if(altura <= 0) {
-        cout << "A altura não pode ser negativa!";
-     }
+     cout << "Informe o peso da segunda nota: ";
+     cin >> peso2;
 
-     if(altura > 0 && base > 0) {
-          area = base * altura;
-          cout << "Area do retangulo: " << area << endl; 
-     }
+     cout << "Informe a terceira nota: ";
+     cin >> nota3;
+
+     cout << "Informe o peso da terceira nota: ";
+     cin >> peso3;
+
+     if(peso1 + peso2 + peso3 == 0) {
+          cout << "A media nao pode ser calculada porque a soma dos pesos eh igual a 0!";
+     } else {
+         media = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3)) / (peso1 + peso2 + peso3);
      
-      return 0;
+         cout << "Media ponderada das 3 notas: " << media << endl; 
+     }
+     return 0;
 }
