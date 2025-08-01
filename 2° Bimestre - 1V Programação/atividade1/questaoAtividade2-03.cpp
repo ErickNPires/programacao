@@ -9,15 +9,21 @@ int main () {
      cout << "Informe a base do retangulo: ";
      cin >> base;
 
-     if(base < 0) {
-        cout << "O Valor não pode ser negativo!"
+     if(base <= 0) {
+        cout << "A base não pode ser negativa!";
      }
 
      cout << "Informe a altura do retangulo: ";
      cin >> altura;
 
-     area = base * altura;
+     if(altura <= 0) {
+        cout << "A altura não pode ser negativa!";
+     }
+
+     if(altura > 0 && base > 0) {
+          area = base * altura;
+          cout << "Area do retangulo: " << area << endl; 
+     }
      
-     cout << "Area do retangulo: " << area << endl; 
-     return 0;
+      return 0;
 }
