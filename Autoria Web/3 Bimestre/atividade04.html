@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixando Elementos</title>
+    <style>
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 150px;
+            padding: 1rem;
+            background-color: aqua;
+        }
+        footer{
+            position: fixed;
+            bottom:0;
+            left: 0;
+            width: 100%;
+            height: 30px;
+            background-color: chartreuse;
+        }
+        p{
+            font-size: 30px;
+            text-align: justify;
+            padding: 10px;
+        }
+        body{
+           margin-top: 200px;
+           height: 100%;
+           padding-bottom: 30px;
+          /* padding-left: 200px;*/
+        }
+        h1{text-align: center;}
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 150px;
+        }
+        li ul {
+            position: absolute;
+            left: 149px;
+            top: 0;
+            display: none;
+        }
+        ul li a {
+            display: block;
+            text-decoration: none;
+            color: #E2144A;
+            background: #fff;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        div{
+            /*background-color: rgb(100, 100, 176);*/
+            width: auto;
+            background-color: blue;
+        }
+        #lateral{
+           /* background-color: chocolate;*/
+            text-align: center;
+            background-color: yellow;
+        }
+        #textolateral{font-size: 15px;}
+
+        #container {
+            display: flex;
+        }
+
+        .conteudo {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<header>
+    <ul id="nav">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#P1">Parte 1</a></li>
+        <li><a href="#P2">Parte 2</a></li>
+        <li><a href="#P3">Parte 3</a></li>
+        <li><a href="#P4">Final</a></li>
+    </ul>
+</header>
+
+<body>
+    <div id="container">
+        <div id="lateral">
+             <p id="textolateral">ERICK</p>
+        </div>
+
+         <div class="conteudo">
+                <h2>1. O Encerramento de Uma Era: O Fim da Short n’ Sweet Tour</h2>
+                <p>Hoje marca o encerramento oficial da Short n’ Sweet Tour, a quinta grande turnê de Sabrina Carpenter, que começou em setembro de 2024 e finaliza agora, em novembro de 2025. Após mais de um ano na estrada, a turnê se consolida como um marco importante na carreira da artista, reunindo 72 shows, mais de 430 mil espectadores e uma das maiores receitas de sua trajetória. Seu final simboliza não apenas o fechamento de um ciclo, mas também o impacto que essa fase teve no crescimento artístico e popularidade de Sabrina.</p>
+        </div>
+
+         <div class="conteudo">
+             <h2>2. A Jornada Criativa: Como a Turnê Evoluiu</h2>
+             <p>Hoje marca o encerramento oficial da Short n’ Sweet Tour, a quinta grande turnê de Sabrina Carpenter, que começou em setembro de 2024 e finaliza agora, em novembro de 2025. Após mais de um ano na estrada, a turnê se consolida como um marco importante na carreira da artista, reunindo 72 shows, mais de 430 mil espectadores e uma das maiores receitas de sua trajetória. Seu final simboliza não apenas o fechamento de um ciclo, mas também o impacto que essa fase teve no crescimento artístico e popularidade de Sabrina.</p>
+         </div>
+
+         <div class="conteudo">
+             <h2>3. Legado e Impacto: O Que a Turnê Deixa para Sabrina Carpenter</h2>
+             <p>Mais do que promover o álbum Short n’ Sweet, a turnê funcionou como um retrato da evolução artística de Sabrina. Figurinos brilhantes, momentos de vulnerabilidade, humor afiado e um vocal cada vez mais sólido moldaram um espetáculo que reforça seu domínio como performer pop.
+O enorme sucesso comercial e o carinho dos fãs consolidam a turnê como um dos capítulos mais importantes de sua carreira. E, com a introdução de novos elementos em seus últimos shows — incluindo referências à nova era musical iniciada com Man’s Best Friend — o fim da Short n’ Sweet Tour aponta diretamente para o que vem a seguir: uma artista em plena ascensão e pronta para reinventar-se mais uma vez.</p>
+        </div>
+
+    </div>
+</body>
+<footer>RODAPÉ DA PÁGINA</footer>
+</html>
